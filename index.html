@@ -40,7 +40,93 @@
         id="html-body" class="cms-home cms-index-index page-layout-1column">
         
 
+<div id="cookie-status">
+    The store will not work correctly in the case when cookies are disabled.</div>
+<script type="text&#x2F;javascript">document.querySelector("#cookie-status").style.display = "none";</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script>
 
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".milatin\u002Dgroup.co.il",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script>
+<div class="page-wrapper"><div class="stickyheader"> <div class="top_menu_wrapper">
+     <ul class="content_wrapper">
+                         <li>
+                    <a href="/about" target="_self" class="parent">                        <span class="title-link-top-menu">מי אנחנו</span>
+                    </a>                                                <ul class="inner_top_menu">
+                                <li>
+                                    <a href="/history" target="_self">                                        הסטוריה                                    </a>                                </li>
+                            </ul>
+
+                                        </li>
+                            <li>
+                    <a href="/brands" target="_self">                        <span class="title-link-top-menu">המותגים שלנו</span>
+                    </a>                                    </li>
+                            <li>
+                    <a href="/store-locator" target="_self">                        <span class="title-link-top-menu">איפה רוכשים</span>
+                    </a>                                    </li>
+                            <li>
+                    <a href="/blog" target="_self" class="parent">                        <span class="title-link-top-menu">המגזין</span>
+                    </a>                                                <ul class="inner_top_menu">
+                                <li>
+                                    <a href="/faq" target="_self">                                        שאלות נפוצות                                    </a>                                </li>
+                            </ul>
+
+                                        </li>
+                            <li>
+                    <a href="/events-news" target="_self">                        <span class="title-link-top-menu">חדשות ואירועים</span>
+                    </a>                                    </li>
+                            <li>
+                    <a href="/contacts" target="_self">                        <span class="title-link-top-menu">צרו קשר</span>
+                    </a>                                    </li>
+                    
+    <div class="language-switcher">
+        <a class="language-switcher-link" href="https://milatin-group.co.il/en">ENG</a>
+    </div>
+    </ul>
+ </div>
+</div><header class="page-header"><div class="panel wrapper"><div class="panel header"><a class="action skip contentarea"
+   href="#contentarea">
+    <span>
+        Skip to Content    </span>
+</a>
 <ul class="header links">    <li class="greet welcome" data-bind="scope: 'customer'">
         <!-- ko if: customer().fullname  -->
         <span class="logged-in"
@@ -216,7 +302,7 @@
                                                             <button>המוצרים שלנו</button>
                                                     </div>
 
-                        </a>                    <a href="" class="swiper-slide wrap-slider-item">
+                        </a>                    <a href="all-products" class="swiper-slide wrap-slider-item">
                         <picture>
                                                         <source media="(max-width:767px)"
                                     srcset="https://milatin-group.co.il/media/worx_banner/banner/image/4/_/4.png">
