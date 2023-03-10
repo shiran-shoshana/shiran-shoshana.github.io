@@ -1,0 +1,4 @@
+Unable to resolve the source file for 'frontend/Worx/LumaRtl/he_IL/images/create-bg-full.png'
+<pre>#1 Magento\Framework\App\StaticResource->launch() called at [vendor/magento/framework/App/Bootstrap.php:263]
+#2 Magento\Framework\App\Bootstrap->run() called at [pub/static.php:13]
+</pre>

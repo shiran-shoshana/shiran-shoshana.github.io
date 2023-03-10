@@ -1,0 +1,1 @@
+require(["jquery","circletype","swipeslider"],(function(e,i){e(document).ready((function(){new Swiper(".swiper-container",{slidesPerView:1,loop:!0,speed:5e3,autoplay:0});e(".curved-text").each((function(){e("body").hasClass("cms-en")||e(this).text(e(this).text().split("").reverse().join("")),new i(e(this)[0]).radius(550)}))}))}));
