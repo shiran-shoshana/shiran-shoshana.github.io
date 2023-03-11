@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>948D4171-B544-4A4E-AEEC-E2DD14A4FDAC@1x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.HP" transform="translate(-240.000000, -111.000000)">
+            <g id="Group-17" transform="translate(222.000000, 95.000000)">
+                <g id="Group-5" transform="translate(7.000000, 6.000000)" filter="url(#filter-1)">
+                    <g transform="translate(19.565217, 18.695652) rotate(-360.000000) translate(-19.565217, -18.695652) translate(9.565217, 8.695652)">
+                        <path d="M15.0002137,5.00049363 C17.7613525,7.76257554 17.7613525,12.2382531 15.0002137,15.000335 C12.2379699,17.7613121 7.7609252,17.7613121 4.99978634,15.000335 C2.23864747,12.2382531 2.23864747,7.76257554 4.99978634,5.00049363 C7.7609252,2.23841171 12.2379699,2.23841171 15.0002137,5.00049363 Z" id="Stroke-1" stroke="#1D1E4F" stroke-width="1.6" transform="translate(10.000000, 10.000000) rotate(-225.000000) translate(-10.000000, -10.000000) "></path>
+                        <line x1="14.7426407" y1="14.7426407" x2="17.9513431" y2="18.0263251" id="Path-2" stroke="#1D1E4F" stroke-width="1.6"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

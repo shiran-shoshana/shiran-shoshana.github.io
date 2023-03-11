@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>60DA7048-419B-4E48-92FC-8A9B37DBFA0C@1x</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.HP" transform="translate(-24.000000, -80.000000)">
+            <g id="Component-/-Mobile-header" transform="translate(0.000000, 18.000000)">
+                <g id="Group-17" transform="translate(20.000000, 58.000000)">
+                    <g id="Group-2" transform="translate(4.000000, 4.000000)">
+                        <rect id="Rectangle" fill="#EC1C29" x="0" y="0" width="32" height="32" rx="16"></rect>
+                        <g id="Group-5" transform="translate(15.652174, 14.956522) rotate(-360.000000) translate(-15.652174, -14.956522) translate(7.652174, 6.956522)" stroke="#FFFFFF" stroke-width="1.5">
+                            <path d="M12.0001709,4.0003949 C14.209082,6.21006043 14.209082,9.79060247 12.0001709,12.000268 C9.79037592,14.2090497 6.20874016,14.2090497 3.99982907,12.000268 C1.79091798,9.79060247 1.79091798,6.21006043 3.99982907,4.0003949 C6.20874016,1.79072937 9.79037592,1.79072937 12.0001709,4.0003949 Z" id="Stroke-1" transform="translate(8.000000, 8.000000) rotate(-225.000000) translate(-8.000000, -8.000000) "></path>
+                            <line x1="11.7941125" y1="11.7941125" x2="14.3610745" y2="14.4210601" id="Path-2"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

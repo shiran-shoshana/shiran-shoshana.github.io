@@ -30,17 +30,17 @@
     top: 2px;
 }
 .mp-blog-calendar-times:before {
-    background-image: url("../media/images/calendar-times.svg");
+    background-image: url("../fonts/calendar-times.svg");
 }
 .mp-blog-user:before {
-    background-image: url("../media/images/user.svg");
+    background-image: url("../fonts/user.svg");
 }
 .mp-blog-comments:before {
-    background-image: url("../media/images/comments.svg");
+    background-image: url("../fonts/comments.svg");
 }
 .mp-blog-traffic:before {
-    background-image: url("../media/images/eye.svg");
+    background-image: url("../fonts/eye.svg");
 }
 .mp-blog-thumbs-up:before {
-    background-image: url("../media/images/thumbs-up.svg");
+    background-image: url("../fonts/thumbs-up.svg");
 }

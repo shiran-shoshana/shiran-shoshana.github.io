@@ -548,7 +548,7 @@ body.mpblog-post-view .owl-theme .owl-dots .owl-dot span {
 
     .block-search .action.search {
         display: block;
-        background: url(../images/Group2@1x.svg);
+        background: url(../fonts/Group2%401x.svg);
         border: none;
         font-size: 0px;
         width: 32px;
@@ -1197,12 +1197,12 @@ body.mpblog-post-view .owl-theme .owl-dots .owl-dot span {
     }
 
     .modes .modes-mode.mode-grid {
-        background-image: url(../images/Group33@1x.svg);
+        background-image: url(../fonts/Group33%401x.svg);
         border-radius: 0px 9px 9px 0px;
     }
 
     .modes .modes-mode.mode-list {
-        background-image: url(../images/Group22@1x.svg);
+        background-image: url(../fonts/Group22%401x.svg);
         border-radius: 9px 0px 0px 9px;
     }
 
@@ -2506,7 +2506,7 @@ body.mpblog-post-view .owl-theme .owl-dots .owl-dot span {
     }
 
     .events-news-events .head {
-        background: url(../images/events/BG-hh.png);
+        background: url(../images/BG-hh.png);
         height: 10rem;
         background-size: 100%;
         background-position: 50% 100%;
@@ -2889,7 +2889,7 @@ body.mpblog-post-view .owl-theme .owl-dots .owl-dot span {
 
     .filter-options-item:before {
         content: '';
-        background-image: url(../images/Path@1x.svg);
+        background-image: url(../fonts/Path%401x.svg);
         width: 18px;
         height: 18px;
         display: block;
@@ -3126,4 +3126,5 @@ body.mpblog-post-view .owl-theme .owl-dots .owl-dot span {
 }
 
 /**/
+
 
