@@ -21814,6 +21814,13 @@ body.page-layout-1column .products-related .product-item-info {
     font-style: normal;
     font-display: swap
 }
+@font-face {
+    font-family: 'noto';
+    src: url('../fonts/noto_bold.woff2') format('woff2'), url('../fonts/noto_light.woff2') format('woff2'), url('../fonts/noto_med.woff2') format('woff2'), url('../fonts/noto_semi.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
 .product-info-mobile {
     display: none
 }
