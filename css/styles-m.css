@@ -21815,9 +21815,23 @@ body.page-layout-1column .products-related .product-item-info {
     font-display: swap
 }
 @font-face {
-    font-family: 'noto';
-    src: url('../fonts/noto_bold.woff2') format('woff2'), url('../fonts/noto_light.woff2') format('woff2'), url('../fonts/noto_med.woff2') format('woff2'), url('../fonts/noto_semi.woff2') format('woff2');
+    font-family: 'noto_bold';
+    src: url('../fonts/noto_bold.woff2') format('woff2');
     font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: 'noto_light';
+    src: url('../fonts/noto_light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: 'noto_med';
+    src: url('../fonts/noto_med.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
     font-display: swap
 }
