@@ -206,67 +206,7 @@
     </div>
     </div>
     </div>
-<div class="column main"><input name="form_key" type="hidden" value="voRlNcVmjEI9C28j"><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
-        <script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/milatin-group.co.il\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/milatin-group.co.il\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/milatin-group.co.il\/"}</script>    <!-- ko template: getTemplate() --><!-- /ko -->
-    <script type="text/x-magento-init">
-        {
-            "#authenticationPopup": {
-                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"amazon-button":{"component":"Amazon_Login\/js\/view\/login-button-wrapper","sortOrder":"0","displayArea":"additional-login-form-fields","config":{"tooltip":"Securely login into our website using your existing Amazon details.","componentDisabled":true}}}}}}            },
-            "*": {
-                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fmilatin\u002Dgroup.co.il\u002Fstatic\u002Fversion1677434242\u002Ffrontend\u002FWorx\u002FLumaRtl\u002Fhe_IL\u002Fimages\u002Floader\u002D1.gif"
-            }
-        }
-    </script>
-</div>
-<script type="text/x-magento-init">
-    {
-        "*": {
-            "Magento_Customer/js/section-config": {
-                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"]},
-                "clientSideSections": ["checkout-data","cart-data","chatData"],
-                "baseUrls": ["https:\/\/milatin-group.co.il\/"],
-                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","chatData","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
-        }
-    }
-</script>
-<script type="text/x-magento-init">
-    {
-        "*": {
-            "Magento_Customer/js/customer-data": {
-                "sectionLoadUrl": "https\u003A\u002F\u002Fmilatin\u002Dgroup.co.il\u002Fcustomer\u002Fsection\u002Fload\u002F",
-                "expirableSectionLifetime": 60,
-                "expirableSectionNames": ["cart","persistent"],
-                "cookieLifeTime": "3600",
-                "updateSessionUrl": "https\u003A\u002F\u002Fmilatin\u002Dgroup.co.il\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
-            }
-        }
-    }
-</script>
-<script type="text/x-magento-init">
-    {
-        "*": {
-            "Magento_Customer/js/invalidation-processor": {
-                "invalidationRules": {
-                    "website-rule": {
-                        "Magento_Customer/js/invalidation-rules/website-rule": {
-                            "scopeConfig": {
-                                "websiteId": "1"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-</script>
-<script type="text/x-magento-init">
-    {
-        "body": {
-            "pageCache": {"url":"https:\/\/milatin-group.co.il\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"},"versionCookieName":"private_content_version"}        }
-    }
-</script>
-
-</div><a id="contentarea" tabindex="-1"></a>
+<a id="contentarea" tabindex="-1"></a>
 <div class="page messages"><div data-placeholder="messages"></div>
 <div data-bind="scope: 'messages'">
     <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
