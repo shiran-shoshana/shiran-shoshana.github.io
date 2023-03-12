@@ -6762,8 +6762,8 @@ body .index-row-4-news .owl-carousel .owl-nav button.owl-next {
         flex: 1 1 4%
     }
     .header.content .logo img {
-        height: 80px;
-        width: 147px
+        height: 100px;
+        width: 100px
     }
     .header.content .header-icons {
         order: 2;
