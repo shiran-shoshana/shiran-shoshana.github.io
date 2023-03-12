@@ -84,23 +84,7 @@
                                     </div>
     </div>
 
-<div data-block="minicart" class="minicart-wrapper">
-    <a class="action showcart" href="https://milatin-group.co.il/checkout/cart/" data-bind="scope: 'minicart_content'">
-        <span class="text">העגלה שלי</span>
-        <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() },
-               blockLoader: isLoading">
-            <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
-            <span class="counter-label">
-          
-            </span>
-        </span>
-    </a>
-            <div class="block block-minicart" data-role="dropdownDialog" data-mage-init="{" dropdownDialog":{ "appendTo":"[data-block="minicart]"," "triggerTarget":".showcart", "timeout": "2000", "closeOnMouseLeave": false, "closeOnEscape": true, "triggerClass":"active", "parentClass":"active", "buttons":[]}}">
-            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
-                <!-- ko template: getTemplate() --><!-- /ko -->
-            </div>
-                    </div>
-</div>
+
 
 
 
